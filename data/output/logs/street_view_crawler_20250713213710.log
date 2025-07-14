@@ -1,0 +1,24 @@
+2025-07-13 21:37:10,949 - street_view_crawler - INFO - === 百度街景爬虫开始运行 ===
+2025-07-13 21:37:10,949 - street_view_crawler - INFO - 输入文件: 采样点_50_300.csv
+2025-07-13 21:37:10,949 - street_view_crawler - INFO - 输出文件: 爬取结果.csv
+2025-07-13 21:37:10,949 - street_view_crawler - INFO - 模式: panoramic
+2025-07-13 21:37:10,949 - street_view_crawler - INFO - Heading计算: movedir
+2025-07-13 21:37:10,949 - street_view_crawler - INFO - 目标年份: 最新
+2025-07-13 21:37:10,949 - street_view_crawler - ERROR - Failed to read CSV file E:\CodeBase\GitHub\street_view_crawler\data\input\采样点_50_300.csv: [Errno 2] No such file or directory: 'E:\\CodeBase\\GitHub\\street_view_crawler\\data\\input\\采样点_50_300.csv'
+2025-07-13 21:37:10,950 - street_view_crawler - ERROR - 程序执行过程中发生错误: [Errno 2] No such file or directory: 'E:\\CodeBase\\GitHub\\street_view_crawler\\data\\input\\采样点_50_300.csv'
+Traceback (most recent call last):
+  File "E:\CodeBase\GitHub\street_view_crawler\main.py", line 161, in main
+    df = read_csv(input_path)
+  File "E:\CodeBase\GitHub\street_view_crawler\utils\file_io.py", line 14, in read_csv
+    df = pd.read_csv(file_path, encoding=encoding)
+  File "D:\anaconda3\envs\DA\lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "D:\anaconda3\envs\DA\lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "D:\anaconda3\envs\DA\lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "D:\anaconda3\envs\DA\lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "D:\anaconda3\envs\DA\lib\site-packages\pandas\io\common.py", line 882, in get_handle
+    handle = open(handle, ioargs.mode)
+FileNotFoundError: [Errno 2] No such file or directory: 'E:\\CodeBase\\GitHub\\street_view_crawler\\data\\input\\采样点_50_300.csv'

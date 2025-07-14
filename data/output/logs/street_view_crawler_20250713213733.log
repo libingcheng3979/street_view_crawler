@@ -1,0 +1,54 @@
+2025-07-13 21:37:33,362 - street_view_crawler - INFO - === 百度街景爬虫开始运行 ===
+2025-07-13 21:37:33,362 - street_view_crawler - INFO - 输入文件: 采样点.csv
+2025-07-13 21:37:33,362 - street_view_crawler - INFO - 输出文件: 爬取结果.csv
+2025-07-13 21:37:33,362 - street_view_crawler - INFO - 模式: panoramic
+2025-07-13 21:37:33,362 - street_view_crawler - INFO - Heading计算: movedir
+2025-07-13 21:37:33,362 - street_view_crawler - INFO - 目标年份: 最新
+2025-07-13 21:37:33,365 - street_view_crawler - INFO - Successfully read CSV file: E:\CodeBase\GitHub\street_view_crawler\data\input\采样点.csv, rows: 13
+2025-07-13 21:37:33,367 - street_view_crawler - INFO - 需要处理 13 个采样点
+2025-07-13 21:37:33,369 - street_view_crawler - INFO - 处理批次 1/1，共 13 条记录
+2025-07-13 21:37:33,390 - street_view_crawler - INFO - Processing sample point 1: (109.021844, 34.324246)
+2025-07-13 21:37:37,852 - street_view_crawler - INFO - Saved panorama image: 1_109.021844_34.324246.jpg
+2025-07-13 21:37:37,853 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:37,853 - street_view_crawler - INFO - Processing sample point 2: (109.001979, 34.361967)
+2025-07-13 21:37:41,902 - street_view_crawler - INFO - Saved panorama image: 2_109.001979_34.361967.jpg
+2025-07-13 21:37:41,903 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:41,904 - street_view_crawler - INFO - Processing sample point 3: (108.837387, 34.249607)
+2025-07-13 21:37:44,810 - street_view_crawler - INFO - Saved panorama image: 3_108.837387_34.249607.jpg
+2025-07-13 21:37:44,810 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:44,811 - street_view_crawler - INFO - Processing sample point 4: (108.840968, 34.203999)
+2025-07-13 21:37:47,519 - street_view_crawler - INFO - Saved panorama image: 4_108.840968_34.203999.jpg
+2025-07-13 21:37:47,519 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:47,520 - street_view_crawler - INFO - Processing sample point 5: (108.870235, 34.19069)
+2025-07-13 21:37:50,669 - street_view_crawler - INFO - Saved panorama image: 5_108.870235_34.19069.jpg
+2025-07-13 21:37:50,669 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:50,670 - street_view_crawler - INFO - Processing sample point 6: (108.899611, 34.328122)
+2025-07-13 21:37:53,038 - street_view_crawler - INFO - Saved panorama image: 6_108.899611_34.328122.jpg
+2025-07-13 21:37:53,039 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:53,039 - street_view_crawler - INFO - Processing sample point 7: (108.824984, 34.192548)
+2025-07-13 21:37:56,081 - street_view_crawler - INFO - Saved panorama image: 7_108.824984_34.192548.jpg
+2025-07-13 21:37:56,082 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:56,082 - street_view_crawler - INFO - Processing sample point 8: (109.032852, 34.286432)
+2025-07-13 21:37:58,791 - street_view_crawler - INFO - Saved panorama image: 8_109.032852_34.286432.jpg
+2025-07-13 21:37:58,791 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:37:58,792 - street_view_crawler - INFO - Processing sample point 9: (108.966881, 34.334173)
+2025-07-13 21:38:00,966 - street_view_crawler - INFO - Saved panorama image: 9_108.966881_34.334173.jpg
+2025-07-13 21:38:00,967 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:38:00,967 - street_view_crawler - INFO - Processing sample point 10: (108.966596, 34.284415)
+2025-07-13 21:38:03,788 - street_view_crawler - INFO - Saved panorama image: 10_108.966596_34.284415.jpg
+2025-07-13 21:38:03,789 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:38:03,789 - street_view_crawler - INFO - Processing sample point 11: (108.859635, 34.323393)
+2025-07-13 21:38:06,800 - street_view_crawler - INFO - Saved panorama image: 11_108.859635_34.323393.jpg
+2025-07-13 21:38:06,801 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:38:06,801 - street_view_crawler - INFO - Processing sample point 12: (109.032809, 34.286355)
+2025-07-13 21:38:08,898 - street_view_crawler - INFO - Saved panorama image: 12_109.032809_34.286355.jpg
+2025-07-13 21:38:08,898 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:38:08,899 - street_view_crawler - INFO - Processing sample point 13: (109.035129, 34.277892)
+2025-07-13 21:38:11,095 - street_view_crawler - INFO - Saved panorama image: 13_109.035129_34.277892.jpg
+2025-07-13 21:38:11,096 - street_view_crawler - INFO - Successfully saved progress to E:\CodeBase\GitHub\street_view_crawler\data\temp\爬取结果.csv.progress
+2025-07-13 21:38:11,102 - street_view_crawler - INFO - Successfully saved CSV file: E:\CodeBase\GitHub\street_view_crawler\data\output\csv\爬取结果.csv, rows: 13
+2025-07-13 21:38:11,102 - street_view_crawler - INFO - 已保存 13 条结果到 E:\CodeBase\GitHub\street_view_crawler\data\output\csv\爬取结果.csv
+2025-07-13 21:38:11,102 - street_view_crawler - INFO - === 百度街景爬虫运行完成 ===
+2025-07-13 21:38:11,102 - street_view_crawler - INFO - 总共处理了 13 条记录
+2025-07-13 21:38:11,104 - street_view_crawler - INFO - 处理状态统计:
+2025-07-13 21:38:11,104 - street_view_crawler - INFO -   success: 13
