@@ -79,6 +79,7 @@ python main.py --input sample.csv --output result.csv --mode directional --year 
 ## 参考资料
 - https://github.com/whuyao/BaiduStreetViewSpider
 - https://github.com/kingsley0107/streetview_images_crawler
+- https://github.com/dickwxyz/CoordinatesConverter
 
 ## 声明
 本爬虫代码仅供个人科研学习使用，请勿用于任何非科研和非法用途。
